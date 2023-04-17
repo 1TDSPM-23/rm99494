@@ -1,0 +1,20 @@
+/* vw  = view width
+vh = view height */
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.conteudo img {
+  max-width: 100%;
+  display: block;
+}
+.conteudo > div {
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px; */
+  flex-basis: 1 1 300px;
+}
