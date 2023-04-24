@@ -3,7 +3,7 @@ vh = view height */
 
 .conteudo {
   display: flex;
-  flex-wrap: wrap;
+
   width: 50vw;
   margin: 0 auto;
 }
@@ -17,4 +17,12 @@ vh = view height */
   flex-shrink: 1;
   flex-basis: 300px; */
   flex-basis: 1 1 300px;
+}
+
+.conteudo table {
+  border-collapse: collapse;
+}
+.conteudo table th,
+td {
+  border: 2px solid black;
 }
