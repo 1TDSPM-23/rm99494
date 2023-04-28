@@ -3,7 +3,7 @@ vh = view height */
 
 .conteudo {
   display: flex;
-
+  flex-wrap: wrap;
   width: 50vw;
   margin: 0 auto;
 }
@@ -19,10 +19,27 @@ vh = view height */
   flex-basis: 1 1 300px;
 }
 
-.conteudo table {
-  border-collapse: collapse;
+table{
+  border-collapse:  collapse;
+  margin: 5% auto;
+  font-size: 2rem;
 }
-.conteudo table th,
-td {
-  border: 2px solid black;
+
+th,td{
+  border: 2px solid #dddddd;
+  padding: 8px;
 }
+tr:nth-child(even){
+  background-color: #ccc;
+}
+tr:nth-child(odd){
+  background-color: darkgray;
+}
+tr:nth-child(1){
+  background-color: #251d1d;
+  color: white;
+}
+tr:hover{
+  background-color: #13121285;
+}
+
