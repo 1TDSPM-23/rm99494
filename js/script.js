@@ -59,3 +59,37 @@
 // }
 // //Qual é o nome que será impresso no log?
 // console.log(nome)
+
+//ARRAY e seus métodos
+let frutas = ["Banana","Maça","morango","carambola","acerola","laranja"];
+//Imprimindo um array
+console.log(frutas);
+console.table(frutas);
+console.log(frutas[4]);
+//Adicionar um iten ao final do array com o método push(item);
+frutas.push("melão")
+console.log(frutas);
+//Adicionar um iten no início do array com o método unshift(iten);
+frutas.unshift("Caju");
+console.log(frutas);
+//Remover um iten do final do array com o método pop();
+frutas.pop();
+console.log(frutas);
+//Remover um iten do inicio do array com o método shifit();
+frutas.shift();
+console.log(frutas);
+
+//Para localizar um itém dentro do array, utilizamos o método indexOf(itenNome)
+// let indice = frutas.indexOf("morango");
+// console.log(frutas[indice]);
+
+//Para localizar um itém dentro do array, e apagar ele apagar ele utilizamos o método splice(indice do item, quantidade de vezes que o indice será removido).
+//Obs: utilize o método indexOf(itenNome) para obter o indice do iten;
+let indice = frutas.indexOf("carambola");
+console.log("FRUTA Q ESTAVA NO INDICE ANTES DA REMOÇÃO : " + frutas[indice]);
+frutas.splice(indice,1);
+console.log("FRUTA Q FICOU NO INDICE PÓS REMOÇÃO : " + frutas[indice]);
+
+frutas.forEach( (fruta)=>{
+   console.log("Olha ele: " + fruta)
+} )
