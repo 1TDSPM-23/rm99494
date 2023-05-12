@@ -10,7 +10,7 @@
 
 .btn-calc button{
     flex-grow: 1;
-    margin: 2% 0;
+    margin: 3% 0;
 }
 .oper-calc{
     display: flex;
