@@ -91,5 +91,5 @@
 //     console.log("olha ele : " + fruta);
 // } );
 
-const inputUser = document.getElementById("idNm");
-console.log(inputUser.value);
+// const inputUser = document.getElementById("idNm");
+// console.log(inputUser.value);
