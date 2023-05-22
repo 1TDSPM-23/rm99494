@@ -1,0 +1,8 @@
+@media (max-width: 627px) {
+  .cabecalho nav {
+    width: 60%;
+  }
+  .cabecalho a {
+    font-size: 2em;
+  }
+}
